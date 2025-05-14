@@ -1,11 +1,12 @@
 <?php
     include_once("dbconnection.php");
 
+    $id=rand();
     $name=$_POST['name'];
     $email=$_POST['email'];
     $number=$_POST['number'];  
     $description=$_POST['description'];
-    $id=rand();
+    
 
     //database connection
 
