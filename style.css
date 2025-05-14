@@ -214,25 +214,25 @@ section{
 
 .about .content .col-left{
     position: relative;
-    width: 45%;
+    width: 40%;
 }
 
 .about .content .col-right{
     position: relative;
-    width: 50%;
+    width: 60%;
 }
 
 .about .content .col-left .img-card{
     position: relative;
     width: 100%;
-    min-height: 450px;
+    min-height: 400px;
 }
 
 .about .content .col-left .img-card img{
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
+    left: 10%;
+    width: 70%;
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
